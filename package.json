@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rishabh202.github.io/my-app",
   "name": "new-app",
   "version": "0.1.0",
   "private": true,
@@ -6,8 +7,12 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "gh-pages": "^5.0.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.11.0",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
@@ -16,12 +21,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
